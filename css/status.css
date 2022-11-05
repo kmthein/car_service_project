@@ -1,0 +1,72 @@
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .badge-warning, .preview-list .preview-item .preview-thumbnail .badge.badge-busy {
+    color: #212529;
+    background-color: #ffbf36;
+  }
+  
+  a.badge-warning:hover, .preview-list .preview-item .preview-thumbnail a.badge.badge-busy:hover, a.badge-warning:focus, .preview-list .preview-item .preview-thumbnail a.badge.badge-busy:focus {
+    color: #212529;
+    background-color: #ffaf03;
+  }
+  
+  a.badge-warning:focus, .preview-list .preview-item .preview-thumbnail a.badge.badge-busy:focus, a.badge-warning.focus, .preview-list .preview-item .preview-thumbnail a.focus.badge.badge-busy {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 191, 54, 0.5);
+  }
+  
+  .badge-primary {
+    color: #fff;
+    background-color: #6640b2;
+  }
+  
+  a.badge-primary:hover, a.badge-primary:focus {
+    color: #fff;
+    background-color: #51338c;
+  }
+  
+  a.badge-primary:focus, a.badge-primary.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(102, 64, 178, 0.5);
+  }
+  
+  .badge-danger {
+    color: #fff;
+    background-color: #f83e37;
+  }
+  
+  a.badge-danger:hover, a.badge-danger:focus {
+    color: #fff;
+    background-color: #f31109;
+  }
+  
+  a.badge-danger:focus, a.badge-danger.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(248, 62, 55, 0.5);
+  }
+  
+  .badge-success, .preview-list .preview-item .preview-thumbnail .badge.badge-online {
+    color: #fff;
+    background-color: #00d082;
+  }
+  
+  a.badge-success:hover, .preview-list .preview-item .preview-thumbnail a.badge.badge-online:hover, a.badge-success:focus, .preview-list .preview-item .preview-thumbnail a.badge.badge-online:focus {
+    color: #fff;
+    background-color: #009d62;
+  }
+  
+  a.badge-success:focus, .preview-list .preview-item .preview-thumbnail a.badge.badge-online:focus, a.badge-success.focus, .preview-list .preview-item .preview-thumbnail a.focus.badge.badge-online {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 208, 130, 0.5);
+  }
